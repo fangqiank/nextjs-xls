@@ -1,6 +1,5 @@
 import type {NextRequest} from 'next/server'
 import * as xlsx from 'xlsx'
-// import xlsx from 'node-xlsx'
 import {promises as fs} from 'fs'
 
 type props = {
